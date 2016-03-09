@@ -1,6 +1,8 @@
 body{
   font-family: Century Gothic;
   color: white;
+  height:100%;
+  width: 100%;
 }
 
 
@@ -40,24 +42,24 @@ body{
     text-align-last: left;
 }
 
-.section{
+.content{
   height: 100vh;
   width: auto;
 
 }
 
-.section h2{
+.content h2{
 
   font-size: 44pt;
 }
 
-.section p{
+.content p{
   font-size: 14pt;
   margin-bottom: 2.5em;
   
 }
 
-.section#philosophy{
+.content#philosophy{
   background-color: rgb(55,89,135);
 }
 
@@ -129,10 +131,10 @@ p.promoBlurb{
   height:100%;
   width: auto;
     background-color: rgba(0,0,0,.5)
-
 }
 .contact h1{
   letter-spacing: .1em;
+  padding-top: 1em;
 }
 
 form{
@@ -140,6 +142,8 @@ form{
   padding-left:4em;
   padding-right: 4em;
   padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 form label{
@@ -151,12 +155,11 @@ textarea{
   color: white;
   height: auto;
   margin-bottom: 1em;
+
 }
 
 input[type=submit]{
   color:white;
   margin-top: 7px;
 }
-.tempcontainer{
-  height:20%;
-}
+
