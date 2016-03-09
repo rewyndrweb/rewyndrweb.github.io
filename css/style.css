@@ -1,0 +1,162 @@
+body{
+  font-family: Century Gothic;
+  color: white;
+}
+
+
+#logo{
+  font-size: 20pt;
+  letter-spacing: .2em;
+  margin-left: .2em;
+  color:black;
+}
+
+#nav-buttons{
+  letter-spacing: .2em;
+  color: black;
+}
+
+
+.banner{
+    height: 100vh;
+    width: auto;
+    margin-top: -4.25em;
+    background-image: url(../resources/phone_cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#introBlurb{
+  font-size: 36pt;
+  text-align: left;
+  margin-top: 40%;
+  padding-right: 5em;
+  color: white;
+}
+
+.description{ 
+    text-align: justify;  
+    text-align-last: left;
+}
+
+.section{
+  height: 100vh;
+  width: auto;
+
+}
+
+.section h2{
+
+  font-size: 44pt;
+}
+
+.section p{
+  font-size: 14pt;
+  margin-bottom: 2.5em;
+  
+}
+
+.section#philosophy{
+  background-color: rgb(55,89,135);
+}
+
+#philosophy h2{
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+
+
+p.promoBlurb{
+  font-size: 10pt;
+
+}
+
+#promo img {
+  height: 20%;
+  width: auto;
+}
+#promo p{
+  margin-bottom: .75em;
+}
+
+
+.whatWeMake{
+  background-color: rgb(243,114,139);
+}
+
+.whatWeMake img{
+  height: 45%;
+  width: auto;
+}
+
+.whatWeMake .container {
+  margin-top: 10%;
+}
+
+
+
+
+
+.introInSite{
+  color: black;
+}
+
+.introInSite .container{
+  margin-top: 10%;
+}
+
+.introInSite a{
+  color: white;
+}
+
+
+.footer-copyright{
+  font-size: 8pt;
+}
+
+.contact{
+  height: 100vh;
+  width: auto;
+  background-image: url(../resources/pgh.jpg);
+  background-size: cover;
+
+}
+
+
+.overlay{
+  height:100%;
+  width: auto;
+    background-color: rgba(0,0,0,.5)
+
+}
+.contact h1{
+  letter-spacing: .1em;
+}
+
+form{
+  border-style: solid;
+  padding-left:4em;
+  padding-right: 4em;
+  padding-top: 1em;
+}
+
+form label{
+  font-size: 18pt;
+  color: white;
+}
+textarea{
+
+  color: white;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+input[type=submit]{
+  color:white;
+  margin-top: 7px;
+}
+.tempcontainer{
+  height:20%;
+}
