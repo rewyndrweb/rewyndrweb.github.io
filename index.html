@@ -137,17 +137,27 @@
             <h1>Get in Touch!</h1>
 
             <form method= "POST" name="contactform" action="contact-form-handler.php">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname">
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate white-text" name = "firstname">
+              <label for="first_name">First Name</label>
+            </div>
 
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname">
+              <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate white-text" name = "lastname">
+              <label for="last_name">Last Name</label>
+            </div>
 
-              <label for="country">Email</label>
-              <input type="text" id= "email" name="email">
+              <div class="input-field col s12">
+              <input id="email" type="email" class="validate white-text">
+            <label for="email">Email</label>
+            </div>
 
-              <label for="message">Message</label>
-              <textarea placeholder = "write us something!" cols="30" rows="6" name = "message"></textarea>
+
+
+            <div class="input-field col s12">
+          <textarea class="materialize-textarea" placeholder = "write us something!" cols="30" rows="6" id ="message" name = "message"></textarea>
+          <label for="message">Message</label>
+              
               <div class = "section row">
               <input class = "waves-effect lighten-1 btn-flat col s4 offset-s4 green center" type="submit" value="Submit">
               </div>
