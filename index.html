@@ -136,7 +136,7 @@
         <div class = "container">
             <h1>Get in Touch!</h1>
 
-            <form action="action_page.php">
+            <form method= "POST" name="contactform" action="contact-form-handler.php">
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname">
 
@@ -147,7 +147,7 @@
               <input type="text" id= "email" name="email">
 
               <label for="message">Message</label>
-              <textarea placeholder = "write us something!" cols="30" rows="6"></textarea>
+              <textarea placeholder = "write us something!" cols="30" rows="6" name = "message"></textarea>
               <div class = "section row">
               <input class = "waves-effect lighten-1 btn-flat col s4 offset-s4 green center" type="submit" value="Submit">
               </div>
